@@ -3,7 +3,7 @@
   <entry>
     <title>(未完)[NOIP2018]保卫王国做题笔记</title>
     <url>/2019/10/27/PN-NOIP2018-KingdomProtection/</url>
-    <content><![CDATA[<!-- build time:Mon Oct 28 2019 19:18:57 GMT+0800 (GMT+08:00) --><a id="more"></a><h1 id="建模"><a href="#建模" class="headerlink" title="建模"></a>建模</h1><h2 id="Part-1"><a href="#Part-1" class="headerlink" title="Part 1"></a>Part 1</h2><p>树上DP,设$dp[i][state(state=0或1)]$是$i$结点时为$state$时,以$i$为根的子树最少花费,则有</p><script type="math/tex;mode=display">dp[u][0]=\sum_{E(u,v)}dp[v][1]\\
+    <content><![CDATA[<!-- build time:Mon Oct 28 2019 19:34:47 GMT+0800 (GMT+08:00) --><a id="more"></a><h1 id="建模"><a href="#建模" class="headerlink" title="建模"></a>建模</h1><h2 id="Part-1"><a href="#Part-1" class="headerlink" title="Part 1"></a>Part 1</h2><p>树上DP,设$dp[i][state(state=0或1)]$是$i$结点时为$state$时,以$i$为根的子树最少花费,则有</p><script type="math/tex;mode=display">dp[u][0]=\sum_{E(u,v)}dp[v][1]\\
 dp[u][1]=\sum_{E(u,b)}\min(dp[v][0],dp[v][1])</script><p>对于每一组询问($i$必须为$a$,$j$必须为$b$),使$dp[i][!a]=dp[j][!b]=INF$即可</p><h2 id="Part-2"><a href="#Part-2" class="headerlink" title="Part 2"></a>Part 2</h2><p>发现每次询问,都只有从$Root$分别到$i$和$j$的两条链上的结点$dp$值有变动,即从$Root$到$LCA(i,j)$,$LCA(i,j)$分别到$i$和$j$三条链上有变动,于是不需大量修改</p><blockquote><p>倍增法</p></blockquote><p>提前倍增预处理出$f[i][k][a][b]$表示$i$结点为$a$,$i$的第$2^k$个祖先为$b$时,除去$i$的子树及$i$,以$i$的第$2^k$个祖先为根的最小花费</p><script type="math/tex;mode=display">fa是i的父节点\\
 f[i][0][1][0]=dp[fa][0]-dp[i][1]\\
 f[i][0][1][1]=f[i][0][0][1]=f[i][dp[fa][1]-\min(dp[i][0],dp[i][1])\\</script><script type="math/tex;mode=display">fa(i,k)表示i的第k个祖先\\
@@ -20,7 +20,7 @@ f[i][k][a][b]=\min(f[i][k-1][a][0]+f[fa(i,k-1)][0][b],\\f[i][k-1][a][1]+f[fa(i,k
   <entry>
     <title>The Renovation of The Blog</title>
     <url>/2019/10/27/About-The-Renovation-of-Blog/</url>
-    <content><![CDATA[<!-- build time:Mon Oct 28 2019 19:18:57 GMT+0800 (GMT+08:00) --><p>此博客已翻新完毕于2019.10.27,旧文档尚未就位,博客优化进程终止</p><a id="more"></a><hr><p>为防止博客优化进程消耗精力,影响学习主进程及第三轮攻势,于2019.10.26至2020.7.1之间全面终止博客优化进程并禁止重启</p><blockquote><p>中央委员会批示</p></blockquote><!-- rebuild by neat -->]]></content>
+    <content><![CDATA[<!-- build time:Mon Oct 28 2019 19:34:47 GMT+0800 (GMT+08:00) --><p>此博客已翻新完毕于2019.10.27,旧文档尚未就位,博客优化进程终止</p><a id="more"></a><hr><p>为防止博客优化进程消耗精力,影响学习主进程及第三轮攻势,于2019.10.26至2020.7.1之间全面终止博客优化进程并禁止重启</p><blockquote><p>中央委员会批示</p></blockquote><!-- rebuild by neat -->]]></content>
       <categories>
         <category>杂文</category>
       </categories>
