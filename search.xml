@@ -1,23 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>[精](未完)[NOIP2018]换教室做题笔记</title>
-    <url>/2019/10/28/PN-NOIP2016-Classroom/</url>
-    <content><![CDATA[<!-- build time:Wed Oct 30 2019 21:19:54 GMT+0800 (GMT+08:00) --><a id="more"></a><h1 id="建模"><a href="#建模" class="headerlink" title="建模"></a>建模</h1><p>由题面”最短路”和”$v\leq300$”可知,需要Floyd处理</p><p>对第$i$节课来说,有如下情况</p><p><img src="/images/loading.png" data-original="情况.jpg" alt="情况"></p><p><strong>其中方括号表示取两种情况的最小值(需要提前确定选不选,不存在概率问题)</strong></p><p><strong>尖括号表示两种情况成以相应概率后相加(未发生的,未确定的事件,概率之和为1)</strong></p><p>我们可以把红圈里的分支继续完善,such as</p><p><img src="/images/loading.png" data-original="情况2.jpg" alt="情况2"></p><p>注意把”被遗弃”的两个$cost$再分别乘以它们的概率</p><p>于是有$f[i][j][state]$表示前$i$节课,换了$j$节,第$i$节换不换(即$state$)是的最小期望</p><p><del>假装我说明白了吧</del></p><!-- rebuild by neat -->]]></content>
+    <title>日志汇总</title>
+    <url>/2019/11/02/CC-Main-File/</url>
+    <content><![CDATA[<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+<div id="hbe-security">
+  <div class="hbe-input-container">
+  <input type="password" class="hbe-form-control" id="pass" placeholder="输入密码以查看文章." />
+    <label for="pass">输入密码以查看文章.</label>
+    <div class="bottom-line"></div>
+  </div>
+</div>
+<div id="decryptionError" style="display: none;">Incorrect Password!</div>
+<div id="noContentError" style="display: none;">No content to display!</div>
+<div id="encrypt-blog" style="display:none">
+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
+</div>
+<script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
-        <category>做题笔记</category>
-        <category>NOIP2016</category>
+        <category>杂文</category>
       </categories>
       <tags>
-        <tag>DP</tag>
-        <tag>期望</tag>
-        <tag>IMPORTANT</tag>
+        <tag>4294967280</tag>
       </tags>
   </entry>
   <entry>
     <title>(未完)[NOIP2018]保卫王国做题笔记</title>
     <url>/2019/10/27/PN-NOIP2018-KingdomProtection/</url>
-    <content><![CDATA[<!-- build time:Wed Oct 30 2019 21:19:54 GMT+0800 (GMT+08:00) --><a id="more"></a><h1 id="建模"><a href="#建模" class="headerlink" title="建模"></a>建模</h1><h2 id="Part-1"><a href="#Part-1" class="headerlink" title="Part 1"></a>Part 1</h2><p>树上DP,设$dp[i][state(state=0或1)]$是$i$结点时为$state$时,以$i$为根的子树最少花费,则有</p><script type="math/tex;mode=display">dp[u][0]=\sum_{E(u,v)}dp[v][1]\\
+    <content><![CDATA[<!-- build time:Thu Nov 07 2019 20:50:34 GMT+0800 (GMT+08:00) --><a id="more"></a><h1 id="建模"><a href="#建模" class="headerlink" title="建模"></a>建模</h1><h2 id="Part-1"><a href="#Part-1" class="headerlink" title="Part 1"></a>Part 1</h2><p>树上DP,设$dp[i][state(state=0或1)]$是$i$结点时为$state$时,以$i$为根的子树最少花费,则有</p><script type="math/tex;mode=display">dp[u][0]=\sum_{E(u,v)}dp[v][1]\\
 dp[u][1]=\sum_{E(u,b)}\min(dp[v][0],dp[v][1])</script><p>对于每一组询问($i$必须为$a$,$j$必须为$b$),使$dp[i][!a]=dp[j][!b]=INF$即可</p><h2 id="Part-2"><a href="#Part-2" class="headerlink" title="Part 2"></a>Part 2</h2><p>发现每次询问,都只有从$Root$分别到$i$和$j$的两条链上的结点$dp$值有变动,即从$Root$到$LCA(i,j)$,$LCA(i,j)$分别到$i$和$j$三条链上有变动,于是不需大量修改</p><blockquote><p>倍增法</p></blockquote><p>提前倍增预处理出$f[i][k][a][b]$表示$i$结点为$a$,$i$的第$2^k$个祖先为$b$时,除去$i$的子树及$i$,以$i$的第$2^k$个祖先为根的最小花费</p><script type="math/tex;mode=display">fa是i的父节点\\
 f[i][0][1][0]=dp[fa][0]-dp[i][1]\\
 f[i][0][1][1]=f[i][0][0][1]=f[i][dp[fa][1]-\min(dp[i][0],dp[i][1])\\</script><script type="math/tex;mode=display">fa(i,k)表示i的第k个祖先\\
@@ -34,7 +44,7 @@ f[i][k][a][b]=\min(f[i][k-1][a][0]+f[fa(i,k-1)][0][b],\\f[i][k-1][a][1]+f[fa(i,k
   <entry>
     <title>The Renovation of The Blog</title>
     <url>/2019/10/27/About-The-Renovation-of-Blog/</url>
-    <content><![CDATA[<!-- build time:Wed Oct 30 2019 21:19:54 GMT+0800 (GMT+08:00) --><p>此博客已翻新完毕于2019.10.27,旧文档尚未就位,博客优化进程终止</p><a id="more"></a><hr><p>为防止博客优化进程消耗精力,影响学习主进程及第三轮攻势,于2019.10.26至2020.7.1之间全面终止博客优化进程并禁止重启</p><blockquote><p>中央委员会批示</p></blockquote><!-- rebuild by neat -->]]></content>
+    <content><![CDATA[<!-- build time:Thu Nov 07 2019 20:50:34 GMT+0800 (GMT+08:00) --><p>此博客已翻新完毕于2019.10.27,旧文档尚未就位,博客优化进程终止</p><a id="more"></a><hr><p>为防止博客优化进程消耗精力,影响学习主进程及第三轮攻势,于2019.10.26至2020.7.1之间全面终止博客优化进程并禁止重启</p><blockquote><p>中央委员会批示</p></blockquote><!-- rebuild by neat -->]]></content>
       <categories>
         <category>杂文</category>
       </categories>
