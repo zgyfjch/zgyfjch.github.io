@@ -1,0 +1,88 @@
+---
+layout: false
+---
+<!DOCTYPE HTML>  
+<html>  
+<head>  
+<meta charset="UTF-8" />  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<meta name="robots" content="none" />  
+<title>座右铭 | TrY的博客</title>  
+<style> 
+@font-face {
+ font-family:dengl;
+ src:url(/fonts/Dengl.ttf) format('truetype');
+ font-weight:400
+}
+body{
+background-image:url("/images/background.jpg");
+}
+*{font-family:"dengl";margin:0;font-weight:lighter;text-decoration:none;text-align:center;line-height:2.2em;}  
+html,body{height:100%;}  
+h1{font-size:100px;line-height:1em;}  
+table{width:100%;height:100%;border:0;}  
+</style>  
+</head>  
+<body>  
+<div id="messagebox"></div>
+<!--Load Jquery-->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script>
+        /*提示信息框动态效果*/
+        var messageboxT;
+        var top1 = 10;
+        var opacity = 0;
+        //初始化数据
+        function initMessagebox(info) {
+            top1 = 10;
+            opacity = 0;
+            opacity1 = 1;
+            $("#messagebox").html(info);
+            $("#messagebox").css({ 'display': 'block' });
+            appearMessagebox();
+        }
+        //出现信息框
+        function appearMessagebox() {
+            top1 += 1;
+            opacity += 0.05;
+            if (opacity < 1) {
+                messageboxT = setTimeout("appearMessagebox()", 15);
+            }
+            else {
+                disappearMessagebox();
+            }
+            $("#messagebox").css({ 'top': String(top1) + 'px' });
+            $("#messagebox").css({ 'opacity': String(opacity) });
+        }
+        //隐藏信息框
+        function disappearMessagebox() {
+            opacity -= 0.05;
+            if (opacity > 0.05) {
+                messageboxT = setTimeout("disappearMessagebox()", 40);
+            }
+            else {
+                opacity = 0;
+                $("#messagebox").css({ 'display': 'none' });
+            }
+            $("#messagebox").css({ 'opacity': String(opacity) });
+        }
+    </script>
+	<script>initMessagebox("要显示的文字");</script>
+<table cellspacing="0" cellpadding="0">  
+<tr>  
+<td>  
+<table cellspacing="0" cellpadding="0">  
+<tr>  
+<td>  
+<h2>非淡泊无以明志,非宁静无以致远<h2>
+<h3></h3>
+<a href="/">进入博客 ></a>  
+</p>  
+</td>  
+</tr>  
+</table>  
+</td>  
+</tr>  
+</table>  
+</body>  
+</html>  
