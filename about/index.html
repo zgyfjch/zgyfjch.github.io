@@ -316,7 +316,7 @@
         
         
           
-    <div id="aplayer-fMgROdSF" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="515647502" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"></div>
+    <div id="aplayer-tUjHAudL" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="515647502" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"></div>
 <h1 id="我是个甚么玩艺儿"><a href="#我是个甚么玩艺儿" class="headerlink" title="我是个甚么玩艺儿"></a>我是个甚么玩艺儿</h1><p>余名曰TY,字容易,居青岛,一直找不到组织的OIer.常以<a href="/motto/">“非淡泊无以明志,非宁静无以致远”</a>自勉,其实道阻且长</p>
 <p>一八年秋,逐新奇,遂建是站.但求简洁,以彰淡泊宁静之志;不增华而无用之动画,以专读者之目于文上也.才疏学浅,表OI之文章,常文不对题,词不达意,诚望$dalao$不吝赐教</p>
 <p><a class="btn" href="/friends"><i class="menu-item-icon fa fa-fw fa-users"></i>友情链接</a></p>
@@ -359,9 +359,7 @@
 
   
     <div class="comments" id="comments">
-      <div id="lv-container" data-id="city" data-uid="MTAyMC80NTc3OS8yMjI5MA=="></div>
     </div>
-
   
 
 
@@ -510,7 +508,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+        <div class="copyright">&copy; 2019 &mdash; <span itemprop="copyrightYear">2020</span>
   <span class="with-love">
     <i class="fa fa-user-o"></i>
   </span>
@@ -524,7 +522,7 @@
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">89</span>
+    <span title="Site words total count">106</span>
   
 </div>
 
@@ -688,26 +686,37 @@
 
 
   
-    <script type="text/javascript">
-      (function(d, s) {
-        var j, e = d.getElementsByTagName(s)[0];
-        if (typeof LivereTower === 'function') { return; }
-        j = d.createElement(s);
-        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-        j.async = true;
-        e.parentNode.insertBefore(j, e);
-      })(document, 'script');
-    </script>
+
+
+
+
+
+
+
+
+
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
   
-
-
-
-
-
-
-
-
-
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'wArVlStubpz9cEUaf79nyfm5-MdYXbMMI',
+        appKey: 'NRn20CkL10ksoVzyJSoE7Sie',
+        placeholder: '作为自信的中国人说些什么|Say something as a confident person.',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
@@ -1044,7 +1053,7 @@
     var bp = document.createElement('script');
     var curProtocol = window.location.protocol.split(':')[0];
     if (curProtocol === 'https') {
-        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
     }
     else {
         bp.src = 'http://push.zhanzhang.baidu.com/push.js';
