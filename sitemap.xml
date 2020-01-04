@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://tryzgyf.gitee.io/posts/TEST-PAGE/</loc>
+    <loc>https://tryzgyf.gitee.io/friends/index.html</loc>
     
-    <lastmod>2019-12-22T11:57:07.601Z</lastmod>
+    <lastmod>2020-01-04T06:50:21.433Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://tryzgyf.gitee.io/posts/About-The-Renovation-of-Blog/</loc>
+    
+    <lastmod>2020-01-04T06:32:21.780Z</lastmod>
     
   </url>
   
@@ -12,13 +19,6 @@
     <loc>https://tryzgyf.gitee.io/baidu_verify_jmcRB7BjCL.html</loc>
     
     <lastmod>2019-12-21T13:12:30.866Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://tryzgyf.gitee.io/posts/About-The-Renovation-of-Blog/</loc>
-    
-    <lastmod>2019-12-21T11:26:13.237Z</lastmod>
     
   </url>
   
@@ -33,13 +33,6 @@
     <loc>https://tryzgyf.gitee.io/about/index.html</loc>
     
     <lastmod>2019-12-21T03:24:17.205Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://tryzgyf.gitee.io/friends/index.html</loc>
-    
-    <lastmod>2019-12-21T01:56:47.738Z</lastmod>
     
   </url>
   

@@ -1,27 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>TEST-PAGE</title>
-    <url>/posts/TEST-PAGE/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
-<div id="hbe-security">
-  <div class="hbe-input-container">
-  <input type="password" class="hbe-form-control" id="pass" placeholder="密码功能测试(本文密码:password)" />
-    <label for="pass">密码功能测试(本文密码:password)</label>
-    <div class="bottom-line"></div>
-  </div>
-</div>
-<div id="decryptionError" style="display: none;">Incorrect Password!</div>
-<div id="noContentError" style="display: none;">No content to display!</div>
-<div id="encrypt-blog" style="display:none">
-U2FsdGVkX1+h4mhINLyjC83Vg4Wf+4qBCaE4x4k7SXiw53ieJowm8xuFAoVOtwbeOv6oeRPT8WQN7JisTFnri+o2Oq8qTcCe6n+3ZSJg93Kkyvjvdft/mIdEtNHSDyOHflO9m4h2KcAEC+hooX0OnKDmfoVdPPgEn4xJuUgUcbx1ptEV+rhjXg10cci7gheAzqkn4bH2nvKRQcnluoD2vYf89ra9hiss5IyIOSCIKro4PKVKUtF0YwZdYpXQl/905Rs9fAVUMWm2bBZUXT1sE+0PuO0TKf6MiqDu/nUYNw1Alg1OiRCtnVKGC1+umAtSdTsia/a81EO1KRm0SB3scmL5igPUKGlJq/1MveTHHosxcpMrcTm/duj//Ln2dZEeyjScWixMw5Nwa0vDTRad1MzFvcoVxxV5avRw1A8uqxd7X1Ih1m4D8xY7TdDiGC/JJQS1vyUhU+1xRKOs4N2d7GsB+C+YdEEHdu0PgtU+qE2Jf9X07J39BLx4Wcb4UJYe4x/6i4i+x9PqSQxpnzckzbHL2IKWKKkd0iYl7uQSAUnmDg7eEv0bUk6ic15bMS5AD5goFdn8GYV7HoSz8JvddlkdESvHR9lEFvU9KX3deTs4Ge0EG8LXUZEXwsPfrcDAUK8G3Cxdm6lDzWzc3aPpDuC+Qd/bE1S+HhsEWe4XQM9RefL51ZQekNPXOJGv1pMUw6c5Ozt9cXmOk68z1pL+YI2s6ho5raNqbgEIkkMuAx5Cll/khseVGKDTg/HDQOLEcYtSzh0sj5H5NSyPBUVr/9YBGuY84glRIG+nKIGcY2Hlw6A70k2A2DPdmnkjtS+urIn8+9sAAwbrjReWakoLXidLWghKASWAeMojBDb7UPGzD0+0LkEwYHiBtRDg45+ZC+mc+cI3/o2UCxEJgURLvWyBdNkdzf2ytdMa/fvYUnRsgtCrcDbRMgQIs4+2qg/sAXjPOGdUp/HsPp1YkWgHt2ezRdo78cbcH9idSmCiAC/n4julLHA505ZnUcmn6XyGIF/oOh7CbF4yg7sc0vDvIJkczoKGwS7n4lITDmN/Msfs2573krUfH/9qBEP6sE7Mp0L7aJlu6+HHcuBfTL6a2yyUhBV35opxdZbIHT2W1U88dA4DFSeCuThOfXLGaRKSO5MOzul7SGdqzyzHEnqlv6t7fOhJrk8Z6Dn4j0m4VUdwvZ+AZmb3WwAEp8BE5QE8vCCQW/vgfr6j7aZT/v3RupYplcIBuu0QMObF/KOYxlnM5lDZABi30SURtgwzP7Acc7eyNAWPyRAOn6piM+NXA24uMWf9hlyt36i+8OnjVfZ5wX3e/+O46F/Z6gY6o7hCB8wsKjWpVnhbB0NgIBes0vcrqatXy3fyZLKOGZXgmLhdsuiVKVUAOiFuMxdJ04ReGxdrK74EHB88SdA576wIgdAsIFjhDj77R2dJTVI8KpiRfLJWEH+TcqJ8n5QnsS+Ljxd2BUH14aEC+xRX8rEQdGaaiNxtQ1TYt028bsssFc0kI1Tzv+DjL8VkCYEojsGwxg3Fxw15F0GCmJcHUE0vG8zBJBbJ0Hf3zv5IUcahA9FI2C0EkF+Xct9/Dduc18RJ0tT2UP7VJZMxKZvAxO0rfi18EsCwKO7VKME/rJYGfhtTLpsBm8s424XNKRdm7UAc
-</div>
-<script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-  </entry>
-  <entry>
     <title>The Renovation of The Blog</title>
     <url>/posts/About-The-Renovation-of-Blog/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>此博客已翻新完毕于2019.10.27,旧文档尚未就位,博客优化进程终止</p>
+<a id="more"></a>
+<hr>
+<h1 id="Site-Updates"><a href="#Site-Updates" class="headerlink" title="Site Updates"></a>Site Updates</h1><h2 id="2020-1"><a href="#2020-1" class="headerlink" title="2020.1"></a>2020.1</h2><blockquote>
+<p>Comment system has changed: ‘LiveRe’  -&gt; ‘Valine’</p>
+</blockquote>
 ]]></content>
       <categories>
         <category>杂文</category>
