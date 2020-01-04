@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://tryzgyf.gitee.io/about/index.html</loc>
+    
+    <lastmod>2020-01-04T07:00:12.690Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://tryzgyf.gitee.io/friends/index.html</loc>
     
     <lastmod>2020-01-04T06:50:21.433Z</lastmod>
@@ -26,13 +33,6 @@
     <loc>https://tryzgyf.gitee.io/music/index.html</loc>
     
     <lastmod>2019-12-21T11:19:59.942Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://tryzgyf.gitee.io/about/index.html</loc>
-    
-    <lastmod>2019-12-21T03:24:17.205Z</lastmod>
     
   </url>
   
