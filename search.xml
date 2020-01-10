@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>“跬步,以至千里”</title>
+    <url>/posts/New-Year-2020/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>这是本文章的结尾.</p>
+]]></content>
+      <categories>
+        <category>杂文</category>
+      </categories>
+      <tags>
+        <tag>我</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的收藏夹</title>
+    <url>/posts/My-Favorite/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
+<p>注: 为保护下述网址的知识产权,此处仅提供URL</p>
+<p>又: $\%\%\%dalaos$</p>
+</blockquote>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>URL</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.cnblogs.com/flashhu/p/8324551.html" target="_blank" rel="noopener">https://www.cnblogs.com/flashhu/p/8324551.html</a></td>
+<td>1.LCT概念</td>
+</tr>
+<tr>
+<td><a href="https://www.cnblogs.com/flashhu/p/9498517.html" target="_blank" rel="noopener">https://www.cnblogs.com/flashhu/p/9498517.html</a></td>
+<td>2.LCT应用</td>
+</tr>
+<tr>
+<td><a href="https://www.luogu.com.cn/blog/command-block/fft-xue-xi-bi-ji" target="_blank" rel="noopener">https://www.luogu.com.cn/blog/command-block/fft-xue-xi-bi-ji</a></td>
+<td>3.FFT极详讲解</td>
+</tr>
+</tbody>
+</table>
+</div>
+]]></content>
+      <categories>
+        <category>工具与资源</category>
+      </categories>
+      <tags>
+        <tag>我</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>The Renovation of The Blog</title>
     <url>/posts/About-The-Renovation-of-Blog/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>此博客已翻新完毕于2019.10.27,旧文档尚未就位,博客优化进程终止</p>
@@ -14,7 +65,7 @@
         <category>杂文</category>
       </categories>
       <tags>
-        <tag>BLOG</tag>
+        <tag>我</tag>
       </tags>
   </entry>
 </search>
