@@ -1,10 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>「网络流应用」之总结</title>
+    <url>/posts/About-Network-Flows/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+<div id="hbe-security">
+  <div class="hbe-input-container">
+  <input type="password" class="hbe-form-control" id="pass" placeholder="弗输入密码,不得视邪">
+    <label for="pass">弗输入密码,不得视邪</label>
+    <div class="bottom-line"></div>
+  </div>
+</div>
+<div id="decryptionError" style="display: none;">Incorrect Password!</div>
+<div id="noContentError" style="display: none;">No content to display!</div>
+<div id="encrypt-blog" style="display:none">
+U2FsdGVkX1+/kSmJXOHFBrElplGa0fCrFxOdwtzFF5BQ9D7MAisOw0MhDTBGbqNAOnyjBqx7aUG5+2OAglfMLTNfyi7xWc99m64lfG9vKfCM3iqFid5xSAY7nUT+bqbF3NU8j111cT+UIWRX6WMcLLPNQpExtjs+Kk/kqz0GLIIltU7xbkc6atvcFgM1PybE6kueuNV1tOPUUeffuulKFrHQ4tnseGj7pnNW2F7npTQVcDrjO/VgXZ+Xtq23NHn6JOTtK7qxDNSTHoTLUo+WT1mTMp+cHw7Kf2wIOBpvV17ixD6PvUBYffcG75BIisd/hUow01zWo3MnuxOSGAyRrl25kQ487wIGn3ptUsV/e1NWr5ffjaaigHruNXBjTOky0kDnSn9iBTFPuIlQlB/R97fo2ZUiIg6Q3HeEYh/yfF+W/6EjjlYMvVuVi/ODQVl05wHjN4YZ0ZK0cyHa4p9TuDqk34NmlZAqiDWJGSyM0CplRTuAFIQeDQ4ACMXM1Puuol0zxR8sUHMnIVPTeGEXnQ==
+</div>
+<script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>做题笔记</category>
+        <category>网络流</category>
+      </categories>
+      <tags>
+        <tag>网络流</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>LCT相关练习</title>
+    <url>/posts/Training-Plan-About-LCT/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+<div id="hbe-security">
+  <div class="hbe-input-container">
+  <input type="password" class="hbe-form-control" id="pass" placeholder="弗输入密码,不得视邪">
+    <label for="pass">弗输入密码,不得视邪</label>
+    <div class="bottom-line"></div>
+  </div>
+</div>
+<div id="decryptionError" style="display: none;">Incorrect Password!</div>
+<div id="noContentError" style="display: none;">No content to display!</div>
+<div id="encrypt-blog" style="display:none">
+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
+</div>
+<script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>做题笔记</category>
+        <category>LCT相关训练</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>[做题笔记]P4172水管局长</title>
+    <url>/posts/%E5%81%9A%E9%A2%98%E7%AC%94%E8%AE%B0-%E6%B0%B4%E7%AE%A1%E5%B1%80%E9%95%BF/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h1><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>原题地址</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.luogu.com.cn/problem/P4172" target="_blank" rel="noopener">https://www.luogu.com.cn/problem/P4172</a></td>
+<td>LCT维护生成树</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>给定一个带权无向图和$Q$个操作,每个操作给点$k$,$A$,$B$,当$k=1$时输出从$A$到$B$路径上最大权的最小值,$k=2$时断开边$(A,B)$</p>
+<a id="more"></a>
+<h1 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h1><h2 id="模型1"><a href="#模型1" class="headerlink" title="模型1"></a>模型1</h2><p>要求路径最大的边最小,这与找最小生成树的思想不谋而合,于是我们可以用LCT(方便连边和删边)维护最小生成树上子树最大值;因为LCT不能维护边,可以把边化成点;<br>可以用Kruskal找到最初最小生成树;对于操作2,如果边在当前最小生成树上,就删掉它,然后继续Kruskal再连没有删掉的一条边;<br><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">"%d%d%d"</span>,&amp;N,&amp;M,&amp;Q);</span><br><span class="line">	NodeCount=N;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=M;i++) &#123;</span><br><span class="line">		<span class="built_in">scanf</span>(<span class="string">"%d%d%d"</span>,&amp;Data[i].x,&amp;Data[i].y,&amp;Data[i].t);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">std</span>::sort(Data+<span class="number">1</span>,Data+<span class="number">1</span>+M);</span><br><span class="line">	<span class="keyword">int</span> Kth=<span class="number">1</span>,Need=N<span class="number">-1</span>;</span><br><span class="line">	<span class="keyword">for</span>(;Kth&lt;=M&amp;&amp;Need;Kth++)&#123;</span><br><span class="line">		MakeRoot(Data[Kth].x);</span><br><span class="line">		<span class="keyword">if</span>(FindRoot(Data[Kth].y)!=Data[Kth].x)&#123;</span><br><span class="line">			Need--,NodeCount++;</span><br><span class="line">			Max[NodeCount]=Value[NodeCount]=Data[Kth].t;</span><br><span class="line">			Fa[Data[Kth].x]=NodeCount;</span><br><span class="line">			Fa[NodeCount]=Data[Kth].y;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=Q;i++)&#123;</span><br><span class="line">		<span class="keyword">int</span> k,A,B;</span><br><span class="line">		<span class="built_in">scanf</span>(<span class="string">"%d%d%d"</span>,&amp;k,&amp;A,&amp;B);</span><br><span class="line">		<span class="keyword">switch</span>(k)&#123;</span><br><span class="line">			<span class="keyword">case</span> <span class="number">1</span>:&#123;</span><br><span class="line">				Spilt(A,B);</span><br><span class="line">				<span class="built_in">printf</span>(<span class="string">"%d\n"</span>,Max[B]);</span><br><span class="line">				<span class="keyword">break</span>;</span><br><span class="line">			&#125;</span><br><span class="line">			<span class="keyword">case</span> <span class="number">2</span>:&#123;</span><br><span class="line">				Cut[A][B]=Cut[B][A]=<span class="number">1</span>;</span><br><span class="line">				MakeRoot(A);</span><br><span class="line">				<span class="keyword">if</span>(FindRoot(B)==A&amp;&amp;Value[Son[B][<span class="number">0</span>]]&amp;&amp;Fa[B]==A)&#123;</span><br><span class="line">					Fa[B]=Son[A][<span class="number">1</span>]=<span class="number">0</span>;</span><br><span class="line">					Son[B][<span class="number">0</span>]=Fa[Son[B][<span class="number">0</span>]]=<span class="number">0</span>;</span><br><span class="line">					<span class="keyword">for</span>(;;Kth++)&#123;</span><br><span class="line">						<span class="keyword">if</span>(Cut[Data[Kth].x][Data[Kth].y])<span class="keyword">continue</span>;</span><br><span class="line">						MakeRoot(Data[Kth].x);</span><br><span class="line">						<span class="keyword">if</span>(FindRoot(Data[Kth].y)!=Data[Kth].x)&#123;</span><br><span class="line">							NodeCount++;</span><br><span class="line">							Max[NodeCount]=Value[NodeCount]=Data[Kth].t;</span><br><span class="line">							Fa[Data[Kth].x]=NodeCount;</span><br><span class="line">							Fa[NodeCount]=Data[Kth].y;</span><br><span class="line">							<span class="keyword">break</span>;</span><br><span class="line">						&#125;</span><br><span class="line">					&#125;</span><br><span class="line">				&#125;</span><br><span class="line">				<span class="keyword">break</span>;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h2 id="修正"><a href="#修正" class="headerlink" title="修正"></a>修正</h2><h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><p><a href="./code.cpp">源代码</a></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>做题笔记</category>
+        <category>LCT相关训练</category>
+      </categories>
+      <tags>
+        <tag>LCT</tag>
+        <tag>Kruskal</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>“跬步,以至千里”</title>
     <url>/posts/New-Year-2020/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>
-    <div id="aplayer-HwnYsbyE" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="1707518" data-server="netease" data-type="album" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"></div>
+    <div id="aplayer-vIyhEqHE" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="1427930" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"></div>
 <p>这是本文章的结尾.</p>
 ]]></content>
       <categories>
@@ -43,7 +123,7 @@
 <td>3.FFT极详讲解</td>
 </tr>
 <tr>
-<td><a href="https://blog.csdn.net/enjoy_pascal/article/details/81478582" target="_blank" rel="noopener">https://blog.csdn.net/enjoy_pascal/article/details/81478582</a></td>
+<td><a href="https://oi-wiki.org/math/poly/fft/" target="_blank" rel="noopener">https://oi-wiki.org/math/poly/fft/</a></td>
 <td>4.FFT讲解2</td>
 </tr>
 </tbody>
@@ -55,6 +135,81 @@
       </categories>
       <tags>
         <tag>我</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>[做题笔记]疫情控制</title>
+    <url>/posts/%E5%81%9A%E9%A2%98%E7%AC%94%E8%AE%B0-YiQingKongZhi/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
+<p>题目来源:<a href="https://www.luogu.org/problem/P1084" target="_blank" rel="noopener"><i class="fa fa-send-o"></i>洛谷</a></p>
+</blockquote>
+<p>大意:有带权树一,令自根至每叶子路上至少驻军一(可在叶子之上而不可在根),初始有些节点上有军队,求所有军队移动距离最大值的最小值</p>
+<a id="more"></a>
+<p>等会儿,”最大值的最小值”?,看上去像二分答案(看来总结大意还是很重要的)</p>
+<p><del>余思良久,但以为DP,总结大意乃知二分答案.故知总结大意之要也</del></p>
+<p>细节:$w&lt;1e9$,则开long long</p>
+<p>以$l=0,r=最长链(或以路径总和代之) $为边界,枚举移动距离之上界,贪心判断,原则如下:</p>
+<p>dfs根的每一个儿子之原则有:</p>
+<ul>
+<li>一个军队,能向上调就调(只要不超上界),因为越向上,能覆盖的叶子节点一般会增多(也有可能不变),永远不要向下调兵,因此其调兵过程中任一一个子树不会出现其他子树的军队</li>
+</ul>
+<p>dfs完根的每一个儿子,如果有$u$的子树未完全覆盖,那对于这颗子树,它之前自己的规划就完全不要了;而把其他的子树有多出来的剩余里程数$&gt;0$的军队,看看够不够经过根节点跑到$u$的;如果够,就调到$u$去.</p>
+<p>于是模拟过程分:</p>
+<p>1.$O(N)$预处理出每个节点到根的距离</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">dfs1(u,road)&#123;</span><br><span class="line">    dis[u]=road;</span><br><span class="line">    <span class="keyword">for</span>(v in son[u])</span><br><span class="line">	&#123;</span><br><span class="line">		dfs1(v,road+E(u,v))</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>顺便预处理出每个军队</p>
+<p>2.dfs根的每一个儿子$u$</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">dfs2(u)&#123;</span><br><span class="line">    <span class="keyword">int</span> ans=arrmy[u]?mid:<span class="number">-1</span>;</span><br><span class="line">	<span class="keyword">for</span>(v in son[u])</span><br><span class="line">	&#123;</span><br><span class="line">		ans=max(ans,dfs2(v)-E(u,v));</span><br><span class="line">	&#125;</span><br><span class="line">    <span class="keyword">return</span> ans;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>3.如果$dfs(u)&lt;0$,则其子树未完全覆盖,把其他多出来的军队调过去,然后</p>
+<p><strong><font color="purple">Runtime Error:栈溢出[&gt;1 Byte],此思维进程IS KILLED</font></strong></p>
+<hr>
+<p><strong><font color="red">正在查找其他可行解<del>(查看题解)</del>…</font></strong></p>
+<ol>
+<li>O(N)倍增预处理出祖先和距离</li>
+<li>O(M)的每个军队向上往死里跳</li>
+<li>O(N)审查无法自保的子树</li>
+<li>每一个能自保的根之子,留一个里程最小的军队,其他军队开赴根节点</li>
+<li>根节点统一调控,以贪心法把军队驻扎在无法自保的根之子去</li>
+</ol>
+]]></content>
+      <categories>
+        <category>做题笔记</category>
+        <category>动态规划</category>
+        <category>树上DP</category>
+      </categories>
+      <tags>
+        <tag>DP</tag>
+        <tag>树上DP</tag>
+        <tag>二分答案</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>[做题笔记]NOIP2018保卫王国(未完待续)</title>
+    <url>/posts/%E5%81%9A%E9%A2%98%E7%AC%94%E8%AE%B0-KingdomProtection/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="建模"><a href="#建模" class="headerlink" title="建模"></a>建模</h1><h2 id="Part-1"><a href="#Part-1" class="headerlink" title="Part 1"></a>Part 1</h2><p>树上DP,设$dp[i][state(state=0或1)]$是$i$结点时为$state$时,以$i$为根的子树最少花费,则有</p>
+<script type="math/tex; mode=display">
+dp[u][0]=\sum_{E(u,v)}dp[v][1]\\
+dp[u][1]=\sum_{E(u,b)}\min(dp[v][0],dp[v][1])</script><p>对于每一组询问($i$必须为$a$,$j$必须为$b$),使$dp[i][!a]=dp[j][!b]=INF$即可</p>
+<h2 id="Part-2"><a href="#Part-2" class="headerlink" title="Part 2"></a>Part 2</h2><p>发现每次询问,都只有从$Root$分别到$i$和$j$的两条链上的结点$dp$值有变动,即从$Root$到$LCA(i,j)$,$LCA(i,j)$分别到$i$和$j$三条链上有变动,于是不需大量修改</p>
+<blockquote>
+<p>倍增法</p>
+</blockquote>
+<p>提前倍增预处理出$f[i][k][a][b]$表示$i$结点为$a$,$i$的第$2^k$个祖先为$b$时,除去$i$的子树及$i$,以$i$的第$2^k$个祖先为根的最小花费</p>
+<script type="math/tex; mode=display">
+fa是i的父节点\\
+f[i][0][1][0]=dp[fa][0]-dp[i][1]\\
+f[i][0][1][1]=f[i][0][0][1]=f[i][dp[fa][1]-\min(dp[i][0],dp[i][1])\\</script><script type="math/tex; mode=display">
+fa(i,k)表示i的第k个祖先\\
+f[i][k][a][b]=\min(f[i][k-1][a][0]+f[fa(i,k-1)][0][b],\\f[i][k-1][a][1]+f[fa(i,k-1)][1][b])</script><p>然后按LCA的模式处理询问即可</p>
+<a id="more"></a>]]></content>
+      <categories>
+        <category>做题笔记</category>
+        <category>NOIP2018</category>
+      </categories>
+      <tags>
+        <tag>DP</tag>
+        <tag>倍增</tag>
+        <tag>NOIP</tag>
       </tags>
   </entry>
   <entry>
@@ -155,6 +310,33 @@ P[A]-P[B]\leq -D\\
 P[i-1]-P[i]\leq 0\\</script><p>求最短路即可,若SPFA(1)时访问不到N,则输出-2;若负环则输出-1.<br><a id="more"></a><br><del>SPFA忘了Vis[u]=0这一句,结果调试了2个小时QwQ,于是乎又双叒叕证明了信息学学习准则草案的无比正确性</del><br><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;cstdio&gt; </span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;queue&gt;</span></span></span><br><span class="line"><span class="keyword">int</span> N,ML,MD;</span><br><span class="line"><span class="keyword">static</span> <span class="keyword">const</span> <span class="keyword">int</span> MAXN=<span class="number">1e3</span>+<span class="number">10</span>,MAXM=<span class="number">3e4</span>+<span class="number">10</span>;</span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">long</span> <span class="keyword">long</span> ll;</span><br><span class="line"><span class="keyword">int</span> SHd[MAXN],SNxt[MAXM] ,STo[MAXM],SDis[MAXM],SCount;</span><br><span class="line">ll Dis[MAXN];</span><br><span class="line"><span class="keyword">int</span> Vis[MAXN],VisCount[MAXN];</span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">void</span> <span class="title">AddEdge</span><span class="params">(<span class="keyword">int</span> from,<span class="keyword">int</span> to,<span class="keyword">int</span> dis)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	SCount++;</span><br><span class="line">	SNxt[SCount]=SHd[from];</span><br><span class="line">	SDis[SCount]=dis,STo[SCount]=to;</span><br><span class="line">	SHd[from]=SCount;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">SPFA</span><span class="params">(<span class="keyword">int</span> start)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">std</span>::<span class="built_in">queue</span>&lt;<span class="keyword">int</span>&gt;Q;</span><br><span class="line">	Q.push(start);</span><br><span class="line">	Dis[start]=<span class="number">0</span>,Vis[start]=VisCount[start]=<span class="number">1</span>;</span><br><span class="line">	<span class="keyword">while</span>(!Q.empty())</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">int</span> u=Q.front();</span><br><span class="line">		Q.pop();</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i=SHd[u];i;i=SNxt[i])</span><br><span class="line">		&#123;</span><br><span class="line">			<span class="keyword">int</span> v=STo[i];</span><br><span class="line">			<span class="keyword">if</span>(Dis[v]&gt;SDis[i]+Dis[u])</span><br><span class="line">			&#123;</span><br><span class="line">				Dis[v]=SDis[i]+Dis[u];</span><br><span class="line">				<span class="keyword">if</span>(Vis[v])<span class="keyword">continue</span>;</span><br><span class="line">				VisCount[v]++;</span><br><span class="line">				<span class="keyword">if</span>(VisCount[v]&gt;N+<span class="number">1</span>)</span><br><span class="line">				&#123;</span><br><span class="line">					<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">				&#125;</span><br><span class="line">				Q.push(v),Vis[v]=<span class="number">1</span>;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		Vis[u]=<span class="number">0</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function">ll <span class="title">ABS</span><span class="params">(ll x)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(x&gt;<span class="number">0</span>)<span class="keyword">return</span> x;</span><br><span class="line">	<span class="keyword">return</span> -x;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">"%d%d%d"</span>,&amp;N,&amp;ML,&amp;MD);</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=ML;i++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">int</span> A,B,D;</span><br><span class="line">		<span class="built_in">scanf</span>(<span class="string">"%d%d%d"</span>,&amp;A,&amp;B,&amp;D);</span><br><span class="line">		AddEdge(A,B,D);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=MD;i++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">int</span> A,B,D;</span><br><span class="line">		<span class="built_in">scanf</span>(<span class="string">"%d%d%d"</span>,&amp;A,&amp;B,&amp;D);</span><br><span class="line">		AddEdge(B,A,-D);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">2</span>;i&lt;=N;i++)AddEdge(i,i<span class="number">-1</span>,<span class="number">0</span>);</span><br><span class="line">	<span class="keyword">bool</span> Flag;</span><br><span class="line">	<span class="built_in">memset</span>(Dis,<span class="number">0x7f</span>,<span class="keyword">sizeof</span>(Dis));</span><br><span class="line">	<span class="keyword">if</span>(!SPFA(<span class="number">1</span>))</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">puts</span>(<span class="string">"-1"</span>);</span><br><span class="line">		<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">else</span>&#123;</span><br><span class="line">		Flag=VisCount[N]&gt;<span class="number">0</span>;</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">2</span>;i&lt;=N;i++)<span class="keyword">if</span>(!VisCount[i])</span><br><span class="line">		&#123;</span><br><span class="line">			<span class="keyword">if</span>(!SPFA(i))&#123;</span><br><span class="line">				<span class="built_in">puts</span>(<span class="string">"-1"</span>);</span><br><span class="line">				<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">if</span>(Flag)<span class="built_in">printf</span>(<span class="string">"%lld\n"</span>,Dis[N]-Dis[<span class="number">1</span>]);</span><br><span class="line">	<span class="keyword">else</span> <span class="built_in">puts</span>(<span class="string">"-2"</span>);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
 <p>```</p>
 ]]></content>
+      <categories>
+        <category>做题笔记</category>
+        <category>图论</category>
+        <category>差分约束</category>
+      </categories>
+      <tags>
+        <tag>图论</tag>
+        <tag>差分约束</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>[做题笔记]LOJ10089_糖果</title>
+    <url>/posts/%E5%81%9A%E9%A2%98%E7%AC%94%E8%AE%B0-%E7%B3%96%E6%9E%9C/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="模型构造"><a href="#模型构造" class="headerlink" title="模型构造"></a>模型构造</h1><p>差分约束</p>
+<p>设$Dis[i]$为编号为$i$的小朋友的获得糖果数</p>
+<p>则</p>
+<script type="math/tex; mode=display">
+X=1:\ D[A]-D[B]\geq 0,D[B]-D[A] \geq 0\\
+X=2:\ D[A]-D[B]\geq 1\\
+X=3:\ D[A]-D[B] \geq 0\\
+X=4:\ D[A]-D[B]\geq1\\
+X=5:\ D[B]-D[A]\geq 0</script><p>有正环则无解</p>
+<p>由于图不一定联通,每次以一个未访问结点$start$为起点SPFA</p>
+<p>因为每个小朋友至少要有1颗糖,$Dis[start]=1$</p>
+<h1 id="模型修正1"><a href="#模型修正1" class="headerlink" title="模型修正1"></a>模型修正1</h1><p>答案可能超过int_MAX,开long long</p>
+<h1 id="模型修正2"><a href="#模型修正2" class="headerlink" title="模型修正2"></a>模型修正2</h1><p>加入特判,当$(X==2 ||X==3)\&amp;\&amp;(A==B)$时非法</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;queue&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">int</span> N,K;</span><br><span class="line"><span class="keyword">static</span> <span class="keyword">const</span> <span class="keyword">int</span> MAXN=<span class="number">1e5</span>+<span class="number">10</span>,MAXK=<span class="number">1e5</span>+<span class="number">10</span>;</span><br><span class="line"><span class="keyword">int</span> SHd[MAXN],SNxt[MAXK*<span class="number">2</span>],STo[MAXK*<span class="number">2</span>],SDis[MAXK*<span class="number">2</span>],SCount;</span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">long</span> <span class="keyword">long</span> ll;</span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">void</span> <span class="title">AddEdge</span><span class="params">(<span class="keyword">int</span> from,<span class="keyword">int</span> to,<span class="keyword">int</span> dis)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	SCount++;</span><br><span class="line">	SNxt[SCount]=SHd[from];</span><br><span class="line">	STo[SCount]=to,SDis[SCount]=dis;</span><br><span class="line">	SHd[from]=SCount;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">int</span> Vis[MAXN],VisCount[MAXN];</span><br><span class="line">ll Dis[MAXN];</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">SPFA</span><span class="params">(<span class="keyword">int</span> Start)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">std</span>::<span class="built_in">queue</span>&lt;<span class="keyword">int</span>&gt; Q;</span><br><span class="line">	Dis[Start]=<span class="number">1</span>;Vis[Start]=VisCount[Start]=<span class="number">1</span>;</span><br><span class="line">	Q.push(Start);</span><br><span class="line">	<span class="keyword">while</span>(!Q.empty())</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">int</span> u=Q.front();</span><br><span class="line">		Q.pop();</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i=SHd[u];i;i=SNxt[i])</span><br><span class="line">		&#123;</span><br><span class="line">			<span class="keyword">if</span>(Dis[STo[i]]&lt;(ll)SDis[i]+Dis[u])</span><br><span class="line">			&#123;</span><br><span class="line">				Dis[STo[i]]=(ll)SDis[i]+Dis[u];</span><br><span class="line">				<span class="keyword">if</span>(Vis[STo[i]])<span class="keyword">continue</span>;</span><br><span class="line">				VisCount[STo[i]]++;</span><br><span class="line">				<span class="keyword">if</span>(VisCount[STo[i]]&gt;N+<span class="number">1</span>)</span><br><span class="line">				&#123;</span><br><span class="line">					<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">				&#125;</span><br><span class="line">				Q.push(STo[i]);</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		Vis[u]=<span class="number">0</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">"%d%d"</span>,&amp;N,&amp;K);</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=K;i++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">int</span> X,A,B;</span><br><span class="line">		<span class="built_in">scanf</span>(<span class="string">"%d%d%d"</span>,&amp;X,&amp;A,&amp;B);</span><br><span class="line">		<span class="keyword">switch</span>(X)</span><br><span class="line">		&#123;</span><br><span class="line">			<span class="keyword">case</span> <span class="number">1</span>:&#123;</span><br><span class="line">				AddEdge(B,A,<span class="number">0</span>),AddEdge(A,B,<span class="number">0</span>);</span><br><span class="line">				<span class="keyword">break</span>;</span><br><span class="line">			&#125;</span><br><span class="line">			<span class="keyword">case</span> <span class="number">2</span>:&#123;</span><br><span class="line">				<span class="keyword">if</span>(A==B)</span><br><span class="line">				&#123;</span><br><span class="line">					<span class="built_in">puts</span>(<span class="string">"-1"</span>) ;</span><br><span class="line">					<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">				&#125;</span><br><span class="line">				AddEdge(A,B,<span class="number">1</span>);</span><br><span class="line">				<span class="keyword">break</span>;</span><br><span class="line">			&#125;</span><br><span class="line">			<span class="keyword">case</span> <span class="number">3</span>:&#123;</span><br><span class="line">				AddEdge(B,A,<span class="number">0</span>);</span><br><span class="line">				<span class="keyword">break</span>;</span><br><span class="line">			&#125;</span><br><span class="line">			<span class="keyword">case</span> <span class="number">4</span>:&#123;</span><br><span class="line">				<span class="keyword">if</span>(A==B)</span><br><span class="line">				&#123;</span><br><span class="line">					<span class="built_in">puts</span>(<span class="string">"-1"</span>) ;</span><br><span class="line">					<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">				&#125;</span><br><span class="line">				AddEdge(B,A,<span class="number">1</span>);</span><br><span class="line">				<span class="keyword">break</span>;</span><br><span class="line">			&#125;</span><br><span class="line">			<span class="keyword">case</span> <span class="number">5</span>:&#123;</span><br><span class="line">				AddEdge(A,B,<span class="number">0</span>);</span><br><span class="line">				<span class="keyword">break</span>;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">memset</span>(Dis,<span class="number">0xC0</span>,<span class="keyword">sizeof</span>(Dis));</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=N;i++)<span class="keyword">if</span>(!VisCount[i])</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">if</span>(!SPFA(i))</span><br><span class="line">		&#123;</span><br><span class="line">			<span class="built_in">puts</span>(<span class="string">"-1"</span>);</span><br><span class="line">			<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	ll Ans=<span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=N;i++)</span><br><span class="line">	&#123;</span><br><span class="line">		Ans+=Dis[i];</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"%lld\n"</span>,Ans);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>做题笔记</category>
         <category>图论</category>
