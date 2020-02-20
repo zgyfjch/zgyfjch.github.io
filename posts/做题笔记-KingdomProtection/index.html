@@ -81,18 +81,18 @@
 
 
 
-<meta name="description" content="建模Part 1树上DP,设$dp[i][state(state=0或1)]$是$i$结点时为$state$时,以$i$为根的子树最少花费,则有  dp[u][0]=\sum_{E(u,v)}dp[v][1]\\ dp[u][1]=\sum_{E(u,b)}\min(dp[v][0],dp[v][1])对于每一组询问($i$必须为$a$,$j$必须为$b$),使$dp[i][!a]=dp[j][!">
+<meta name="description" content="是文未完工,不足以观">
 <meta name="keywords" content="DP,倍增,NOIP">
 <meta property="og:type" content="article">
-<meta property="og:title" content="[做题笔记]NOIP2018保卫王国(未完待续)">
+<meta property="og:title" content="[做题笔记]NOIP2018保卫王国">
 <meta property="og:url" content="https://tryzgyf.gitee.io/posts/做题笔记-KingdomProtection/index.html">
 <meta property="og:site_name" content="TrY之博客">
-<meta property="og:description" content="建模Part 1树上DP,设$dp[i][state(state=0或1)]$是$i$结点时为$state$时,以$i$为根的子树最少花费,则有  dp[u][0]=\sum_{E(u,v)}dp[v][1]\\ dp[u][1]=\sum_{E(u,b)}\min(dp[v][0],dp[v][1])对于每一组询问($i$必须为$a$,$j$必须为$b$),使$dp[i][!a]=dp[j][!">
+<meta property="og:description" content="是文未完工,不足以观">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2020-02-04T04:26:18.096Z">
+<meta property="og:updated_time" content="2020-02-20T00:53:15.178Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="[做题笔记]NOIP2018保卫王国(未完待续)">
-<meta name="twitter:description" content="建模Part 1树上DP,设$dp[i][state(state=0或1)]$是$i$结点时为$state$时,以$i$为根的子树最少花费,则有  dp[u][0]=\sum_{E(u,v)}dp[v][1]\\ dp[u][1]=\sum_{E(u,b)}\min(dp[v][0],dp[v][1])对于每一组询问($i$必须为$a$,$j$必须为$b$),使$dp[i][!a]=dp[j][!">
+<meta name="twitter:title" content="[做题笔记]NOIP2018保卫王国">
+<meta name="twitter:description" content="是文未完工,不足以观">
 
 
 
@@ -128,7 +128,7 @@
 
 
 
-  <title>[做题笔记]NOIP2018保卫王国(未完待续) | TrY之博客</title>
+  <title>[做题笔记]NOIP2018保卫王国 | TrY之博客</title>
   
 
 
@@ -325,7 +325,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">[做题笔记]NOIP2018保卫王国(未完待续)</h1>
+          <h1 class="post-title" itemprop="name headline">[做题笔记]NOIP2018保卫王国</h1>
         
 
         <div class="post-meta">
@@ -354,8 +354,8 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2020-02-04T12:26:18+08:00">
-                2020-02-04
+              <time title="更新于" itemprop="dateModified" datetime="2020-02-20T08:53:15+08:00">
+                2020-02-20
               </time>
             
           </span>
@@ -430,7 +430,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  301 字
+                  172 字
                 </span>
               
 
@@ -467,22 +467,20 @@
       
 
       
-        <h1 id="建模"><a href="#建模" class="headerlink" title="建模"></a>建模</h1><h2 id="Part-1"><a href="#Part-1" class="headerlink" title="Part 1"></a>Part 1</h2><p>树上DP,设$dp[i][state(state=0或1)]$是$i$结点时为$state$时,以$i$为根的子树最少花费,则有</p>
-<script type="math/tex; mode=display">
-dp[u][0]=\sum_{E(u,v)}dp[v][1]\\
-dp[u][1]=\sum_{E(u,b)}\min(dp[v][0],dp[v][1])</script><p>对于每一组询问($i$必须为$a$,$j$必须为$b$),使$dp[i][!a]=dp[j][!b]=INF$即可</p>
-<h2 id="Part-2"><a href="#Part-2" class="headerlink" title="Part 2"></a>Part 2</h2><p>发现每次询问,都只有从$Root$分别到$i$和$j$的两条链上的结点$dp$值有变动,即从$Root$到$LCA(i,j)$,$LCA(i,j)$分别到$i$和$j$三条链上有变动,于是不需大量修改</p>
-<blockquote>
-<p>倍增法</p>
-</blockquote>
-<p>提前倍增预处理出$f[i][k][a][b]$表示$i$结点为$a$,$i$的第$2^k$个祖先为$b$时,除去$i$的子树及$i$,以$i$的第$2^k$个祖先为根的最小花费</p>
-<script type="math/tex; mode=display">
-fa是i的父节点\\
-f[i][0][1][0]=dp[fa][0]-dp[i][1]\\
-f[i][0][1][1]=f[i][0][0][1]=f[i][dp[fa][1]-\min(dp[i][0],dp[i][1])\\</script><script type="math/tex; mode=display">
-fa(i,k)表示i的第k个祖先\\
-f[i][k][a][b]=\min(f[i][k-1][a][0]+f[fa(i,k-1)][0][b],\\f[i][k-1][a][1]+f[fa(i,k-1)][1][b])</script><p>然后按LCA的模式处理询问即可</p>
-<a id="more"></a>
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+<div id="hbe-security">
+  <div class="hbe-input-container">
+  <input type="password" class="hbe-form-control" id="pass" placeholder="弗输入密码,不得视邪">
+    <label for="pass">弗输入密码,不得视邪</label>
+    <div class="bottom-line"></div>
+  </div>
+</div>
+<div id="decryptionError" style="display: none;">Incorrect Password!</div>
+<div id="noContentError" style="display: none;">No content to display!</div>
+<div id="encrypt-blog" style="display:none">
+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
+</div>
+<script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">
       
     </div>
     
@@ -502,7 +500,7 @@ f[i][k][a][b]=\min(f[i][k-1][a][0]+f[fa(i,k-1)][0][b],\\f[i][k-1][a][1]+f[fa(i,k
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="https://tryzgyf.gitee.io/posts/做题笔记-KingdomProtection/" title="[做题笔记]NOIP2018保卫王国(未完待续)">https://tryzgyf.gitee.io/posts/做题笔记-KingdomProtection/</a>
+    <a href="https://tryzgyf.gitee.io/posts/做题笔记-KingdomProtection/" title="[做题笔记]NOIP2018保卫王国">https://tryzgyf.gitee.io/posts/做题笔记-KingdomProtection/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>
@@ -601,17 +599,8 @@ f[i][k][a][b]=\min(f[i][k-1][a][0]+f[fa(i,k-1)][0][b],\\f[i][k-1][a][1]+f[fa(i,k
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            站点概览
-          </li>
-        </ul>
-      
 
-      <section class="site-overview-wrap sidebar-panel">
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -628,7 +617,7 @@ f[i][k][a][b]=\min(f[i][k-1][a][0]+f[fa(i,k-1)][0][b],\\f[i][k-1][a][1]+f[fa(i,k
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">16</span>
+                  <span class="site-state-item-count">18</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -639,7 +628,7 @@ f[i][k][a][b]=\min(f[i][k-1][a][0]+f[fa(i,k-1)][0][b],\\f[i][k-1][a][1]+f[fa(i,k
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">13</span>
+                  <span class="site-state-item-count">16</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -650,7 +639,7 @@ f[i][k][a][b]=\min(f[i][k-1][a][0]+f[fa(i,k-1)][0][b],\\f[i][k-1][a][1]+f[fa(i,k
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">15</span>
+                  <span class="site-state-item-count">16</span>
                   <span class="site-state-item-name">知识标签</span>
                 </a>
               </div>
@@ -690,22 +679,6 @@ f[i][k][a][b]=\min(f[i][k-1][a][0]+f[fa(i,k-1)][0][b],\\f[i][k-1][a][1]+f[fa(i,k
       </section>
 
       
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#建模"><span class="nav-number">1.</span> <span class="nav-text">建模</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Part-1"><span class="nav-number">1.1.</span> <span class="nav-text">Part 1</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Part-2"><span class="nav-number">1.2.</span> <span class="nav-text">Part 2</span></a></li></ol></li></ol></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
-      
 
       
         <div class="back-to-top">
@@ -740,7 +713,7 @@ f[i][k][a][b]=\min(f[i][k-1][a][0]+f[fa(i,k-1)][0][b],\\f[i][k-1][a][1]+f[fa(i,k
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">5.4k</span>
+    <span title="Site words total count">5.3k</span>
   
 </div>
 
