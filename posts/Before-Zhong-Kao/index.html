@@ -81,17 +81,17 @@
 
 
 
-<meta name="description" content="整合并动员一切力量，以于关键阶段保证依计划完成任务，并防止未知异常发生。  描述：大于一切的紧急情况，其余一切进程终止  该任务优先级为最高。    *{box-sizing: border-box; padding: 0;margin: 0;} .myitem{   width: 500px;   height: 300px;   margin: 0 auto;   padding: 15px">
+<meta name="description" content="整合并动员一切力量，以于关键阶段保证依计划完成任务，并防止未知异常发生。  描述：大于一切的紧急情况，其余一切进程终止  该任务优先级为最高。    *{box-sizing: border-box; padding: 0;margin: 0;} .myitem{   width: 500px;   height: 300px;   margin: 0 auto;   padding: 15px;">
 <meta property="og:type" content="article">
 <meta property="og:title" content="关于关键阶段">
 <meta property="og:url" content="https://tryzgyf.gitee.io/posts/Before-Zhong-Kao/index.html">
 <meta property="og:site_name" content="TrY之博客">
-<meta property="og:description" content="整合并动员一切力量，以于关键阶段保证依计划完成任务，并防止未知异常发生。  描述：大于一切的紧急情况，其余一切进程终止  该任务优先级为最高。    *{box-sizing: border-box; padding: 0;margin: 0;} .myitem{   width: 500px;   height: 300px;   margin: 0 auto;   padding: 15px">
+<meta property="og:description" content="整合并动员一切力量，以于关键阶段保证依计划完成任务，并防止未知异常发生。  描述：大于一切的紧急情况，其余一切进程终止  该任务优先级为最高。    *{box-sizing: border-box; padding: 0;margin: 0;} .myitem{   width: 500px;   height: 300px;   margin: 0 auto;   padding: 15px;">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2020-03-18T06:40:11.201Z">
+<meta property="og:updated_time" content="2020-05-08T10:47:48.730Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="关于关键阶段">
-<meta name="twitter:description" content="整合并动员一切力量，以于关键阶段保证依计划完成任务，并防止未知异常发生。  描述：大于一切的紧急情况，其余一切进程终止  该任务优先级为最高。    *{box-sizing: border-box; padding: 0;margin: 0;} .myitem{   width: 500px;   height: 300px;   margin: 0 auto;   padding: 15px">
+<meta name="twitter:description" content="整合并动员一切力量，以于关键阶段保证依计划完成任务，并防止未知异常发生。  描述：大于一切的紧急情况，其余一切进程终止  该任务优先级为最高。    *{box-sizing: border-box; padding: 0;margin: 0;} .myitem{   width: 500px;   height: 300px;   margin: 0 auto;   padding: 15px;">
 
 
 
@@ -137,9 +137,6 @@
 
 
 
-<link rel="stylesheet" href="\assets\css\APlayer.min.css" class="aplayer-style-marker">
-<script src="\assets\js\APlayer.min.js" class="aplayer-script-marker"></script>
-<script src="\assets\js\Meting.min.js" class="meting-script-marker"></script>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -362,8 +359,8 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2020-03-18T14:40:11+08:00">
-                2020-03-18
+              <time title="更新于" itemprop="dateModified" datetime="2020-05-08T18:47:48+08:00">
+                2020-05-08
               </time>
             
           </span>
@@ -442,9 +439,7 @@
       
 
       
-        
-    <div id="aplayer-wuMnuFOh" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="1427930" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"></div>
-<p><strong>整合并动员一切力量，以于关键阶段保证依计划完成任务，并防止未知异常发生。</strong></p>
+        <p><strong>整合并动员一切力量，以于关键阶段保证依计划完成任务，并防止未知异常发生。</strong></p>
 <blockquote>
 <p>描述：大于一切的紧急情况，其余一切进程终止</p>
 </blockquote>
@@ -495,8 +490,7 @@
 </div>
 
 
-
-<p><script>
+<script>
     var showtime = function () {
         var nowtime = new Date(),  //获取当前时间
         endtime = new Date("2020/6/11");  //定义结束时间
@@ -507,10 +501,10 @@
             lefts = Math.floor(lefttime/1000%60);  //计算秒数
         var leftweek= Math.floor(leftd/7);
         if(leftd<0){
-            return " I want you to tell me that you've done your job.";
+            return "倒计时已完成："+(-leftweek)+"周:"+(-leftd) + "天" + (-lefth) + "小时" + (-leftm) + "分" + (-lefts)+"秒";
         }
         if(leftd<40){
-            return "I hope you won't let yourself down.\n仅剩"+leftweek+"周:"+leftd + "天" + lefth + "小时" + leftm + "分" + lefts+"秒\n"; 
+            return "仅剩"+leftweek+"周:"+leftd + "天" + lefth + "小时" + leftm + "分" + lefts+"秒\n"; 
         }
         return "共"+leftweek+"周:"+leftd + "天" + lefth + "小时" + leftm + "分" + lefts+"秒";  //返回倒计时的字符串
     }
@@ -518,8 +512,9 @@
 setInterval (function () {
     div.innerHTML = showtime();
 }, 1000);
-</script><br><a id="more"></a></p>
+</script>
 
+<a id="more"></a>
       
     </div>
     
@@ -765,7 +760,7 @@ setInterval (function () {
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">5.6k</span>
+    <span title="Site words total count">5.5k</span>
   
 </div>
 
