@@ -1,10 +1,7 @@
 # hexo robots.txt
-User-agent: *
+User-agent: Baiduspider
 Allow: /
 Allow: /posts/
-Allow: /archives/
-Allow: /categories/
-Allow: /tags/
 
 Disallow: /music/
 Disallow: /about/
@@ -14,6 +11,25 @@ Disallow: /css/
 Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
+Disallow: /archives/
+Disallow: /categories/
+Disallow: /tags/
+
+User-agent: *
+Allow: /
+Allow: /posts/
+
+Disallow: /music/
+Disallow: /about/
+Disallow: /vendors/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /vendors/
+Disallow: /fancybox/
+Disallow: /archives/
+Disallow: /categories/
+Disallow: /tags/
 
 Sitemap: https://tryzgyf.gitee.io/sitemap.xml
 Sitemap: https://tryzgyf.gitee.io/baidusitemap.xml
